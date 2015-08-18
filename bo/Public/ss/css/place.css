@@ -1,0 +1,138 @@
+@CHARSET "UTF-8";
+/*=======购物车==========*/
+.car_wrap li{
+	height: 90px;
+	margin-top: 10px;
+	background:#fff;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.car_wrap li .check{
+	display: inline-block;
+	background: url(../images/icon2.png) no-repeat;
+	background-size: 200px 80px;
+	position: relative;
+	top: 25px;
+	left: 1px;
+	width: 40px;
+	height: 40px;
+}
+.yes{
+	background-position: 0 0 !important;
+}
+.no{
+	background-position: -40px 0 !important;
+}
+.car_wrap li .goods{
+	border: 1px solid #ccc;
+	height: 70px;
+	width: 70px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left:5px;
+	text-align: center;
+}
+.car_wrap li .goods img{
+	height: 64px;
+	margin-top: 3px;
+}
+.car_wrap li .describe{
+	height: 80px;
+	margin-top: 10px;
+	margin-left:5px;
+	display: inline-block;
+}
+.car_wrap li .describe label{
+	display: block;
+}
+.car_wrap li .describe .up{
+	font-size: 15px;
+}
+.car_wrap li .describe .down{
+	font-size: 13px;
+	color: #666;	
+}
+.car_wrap li .describe #reduce,#add{
+	display: inline-block;
+	background: url(../images/icon2.png) no-repeat;
+	background-size: 200px 80px;
+	width: 40px;
+	height: 40px;
+	margin-left: -5px;
+}
+.car_wrap li .describe #reduce{
+	background-position: -120px 0;
+}
+.car_wrap li .describe #add{
+	background-position: -160px 0;
+}
+.car_wrap li .describe .count{
+	display: inline-block;
+	width: 30px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin-left: -5px;
+}
+.car_wrap li .right{
+	height: 90px;
+	display: inline-block;
+	color: #ff2d4b;
+	font-size: 16px;
+	padding: 10px 15px 0 0;
+	text-align: right;
+}
+.car_wrap li .right #recover{
+	display: block;
+	background: url(../images/icon2.png) no-repeat;
+	background-size: 200px 80px;
+	width: 40px;
+	height: 40px;
+	background-position: -80px 0;
+	position: relative;
+	top: 15px;
+	left: 9px;
+}
+.car_foot{
+	height: 40px;
+	width:100%;
+	background: #fff;
+	position: fixed;
+	bottom: 54px;
+	font-size: 17px;
+	line-height: 40px;
+}
+.car_foot span{
+	height: 40px;
+	float: left;
+	color: #fff;
+}
+.car_foot .radio{
+	width: 25%;
+	background:#ff2d4b;
+	display: block;
+}
+.car_foot .total{
+	width: 45%;
+	background:#ff2d4b;
+}
+.car_foot #btn{
+	width: 30%;
+	background:#787878;
+}
+.car_foot #btn input{
+	color: #fff;
+	border: 0;
+	height: 100%;
+	width: 100%;
+	font-size: 17px;
+}
+.car_foot .radio a{
+	display: inline-block;
+	background: url(../images/icon2.png) no-repeat;
+	background-size: 200px 80px;
+	width: 40px;
+	height: 40px;
+	background-position: 0 -40px;
+	float: left;
+}

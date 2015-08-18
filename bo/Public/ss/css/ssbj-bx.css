@@ -1,0 +1,309 @@
+@CHARSET "UTF-8";
+/*=========登录========*/
+.login_top{
+	width: 100%;
+	background: url(../images/login_bg.png) top center no-repeat;
+	background-size: contain;
+	padding-top: 45%;
+}
+/*上 右 下 左*/
+.ptext{
+	padding: 0px 74px 0px 20px;
+	height: 44px;
+	margin-top: 20px;
+	display: block;
+	position: relative;
+	top: -34px;
+}
+.ptext .icon{
+	display: block;
+	background: url(../images/icon.png) no-repeat;
+	background-size: 200px 40px;
+	position: relative;
+	left: 0;
+	top: 45px;
+	width: 40px;
+	height: 40px;
+}
+.ptext .user{
+	background-position: 0 0;
+}
+.ptext .pass{
+	background-position: -40px 0;
+}
+.ptext input{
+	width: 100%;
+	height: 100%;
+	font-size: 15px;
+	background: #f2f2f2;
+	border-radius: 3px;
+	border: 1px solid #dedede;
+	padding-left: 44px;
+}
+.login-btn{
+	margin-top: 20px;
+	padding: 0 20px;
+}
+.login-btn input{
+	width: 100%;
+	height: 40px;
+	font-size: 18px;
+	border-radius: 20px;
+	border: none;
+	background: #FF0033;
+	color: #fff;
+}
+.login-btn a{
+	color: #3149dc;
+	text-decoration: underline;
+	height:30px;
+	line-height: 30px;
+}
+/*=========登录end========*/
+/*=========镖讯首页============*/
+.bx_head{
+	background: url(../images/bx.jpg) no-repeat;
+	background-size:100% 100%;
+	background-position:center; 
+	width: 100%;
+	height: 100px;
+}
+.bx_head .logo{
+	margin-top:15px;
+	height: 70px;
+	float: left;
+	margin-left: 10px;
+}
+@media screen and (max-width:350px){
+	
+}
+.bx_head .info{
+	margin-top:31px;
+	margin-left: 10px;
+	float: left;
+	color: #666666;
+}
+.bx_head .info #username{
+	display:block;
+	font-size: 17px;
+	font-weight: bold;
+}
+.bx_head .info #tip{
+	font-size: 12px;
+}
+.bx_wrap_order{
+	display: -webkit-box;
+	width: 100%;
+	-webkit-box-orient:horizontal;
+	text-align: center;
+	height: 60px;
+	border-bottom: 1px solid #e6e6e6;
+	background: #fff;
+	color: #999;
+}
+.bx_wrap_order span{
+	-webkit-box-flex: 1;
+	display: block;
+}
+.bx_wrap_order span .dai{
+	background: url(../images/icon.png) no-repeat;
+	background-size: 200px 40px;
+	width: 40px;
+	height: 40px;
+	display:block;
+	background-position: -80px 0;
+	padding-top: 40px;
+	font-size: 12px;
+	margin: 0 auto;
+}
+.bx_wrap_order span .pei{
+	background: url(../images/icon.png) no-repeat;
+	background-size: 200px 40px;
+	width: 40px;
+	height: 40px;
+	display:block;
+	background-position: -120px 0;
+	padding-top: 40px;
+	font-size: 12px;
+	margin: 0 auto;
+}
+.bx_wrap_order span .yi{
+	background: url(../images/icon.png) no-repeat;
+	background-size: 200px 40px;
+	width: 40px;
+	height: 40px;
+	display:block;
+	background-position: -160px 0;
+	padding-top: 40px;
+	font-size: 12px;
+	margin: 0 auto;
+}
+.bx_wrap_cont{
+	width: 100%;
+}
+.bx_wrap_cont li{
+	margin-top:5px;
+	background:#fff;
+	border-top: 1px solid #e6e6e6;
+	border-bottom:1px solid #e6e6e6;
+	height: 50px;
+	line-height: 50px;
+	font-size: 15px;
+	color: #1e1e1e;
+}
+.bx_wrap_cont li a{
+	width:100%;
+	display: inline-block;
+}
+.bx_wrap_cont li a img{
+	float:left;
+	height: 32px;
+	width: 32px;
+	padding: 9px 5px 0 5px;
+}
+.bx_wrap_cont li .kefu{
+	text-align: center;
+	color: #666;
+}
+.row-right{
+	border-right: 2px solid #babbbb;
+	border-bottom: 2px solid #babbbb;
+	float: right;
+	width: 13px;
+	height: 13px;
+	-webkit-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+	margin-top: 17px;
+	margin-right: 10px;
+}
+/*========注册============*/
+.reg_wrap{
+	width: 100%;
+	height: auto;
+}
+.reg_wrap table{
+	width: 100%;
+	padding: 10px;
+}
+.reg_wrap input[type="button"],input[type="text"],input[type="submit"]{
+	font-size: 1.1em;
+	height: 40px;
+	border-radius: 5px;
+	margin-top: 4px;
+	border: 0;
+	width: 100%;
+}
+.reg_wrap #code,#submit{
+	color: #fff;
+	border: 1px solid #fff;	
+	background: none;
+}
+.reg_wrap #submit{
+	margin-bottom: 5px;
+}
+/*========常用地址==========*/
+.addr_wrap li{
+	height: 50px;
+	width: 100%;
+	background: #fff;
+	margin-top: 10px;
+	padding:10px;
+	font-size: 15px;
+}
+.addr_wrap{
+	overflow: hidden;
+}
+.addr_wrap li label{
+	display: inline-block;
+}
+.addr_foot{
+	width:100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	background: #fff;
+	font-size: 17px;
+	color: #00a6ee;
+}
+.addr_foot img{
+	width: 20px;
+	position: relative;
+	top:4px;
+}
+.row-right2{
+	border-right: 2px solid #babbbb;
+	border-bottom: 2px solid #babbbb;
+	float: right;
+	width: 16px;
+	height: 16px;
+	-webkit-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+	margin-top: -5px;
+	margin-right: 20px;
+}
+/*========常用地址==========*/
+.more_wrap{
+	overflow: hidden;
+}
+.more_wrap ul{
+	background: #fff;
+}
+.more_wrap li{
+	height: 50px;
+	line-height: 50px;
+	width: 100%;
+	background: #fff;
+	font-size: 15px;
+	border-bottom: 1px solid #dcdcdc;
+}
+.more_wrap li img{
+	margin-top:10px;
+	width: 30px;
+	float: left;
+}
+.more_wrap li a{
+	display: inline-block;
+	padding-left: 5px;
+}
+.row-right3{
+	border-right: 2px solid #babbbb;
+	border-bottom: 2px solid #babbbb;
+	float: right;
+	width: 13px;
+	height: 13px;
+	-webkit-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+	margin-top: 17px;
+	margin-right: 10px;
+}
+/*========查询订单============*/
+.order_head{
+	height: 44px;
+	border: 1px solid #dedede;
+	background: #fff;
+}
+.order_head ul li{
+	float: left;
+	width: 33%;
+	text-align: center;
+	line-height: 43px;
+	height: 43px;
+}
+.order_head ul li .active{
+	border-bottom: 2px solid red;
+	color: #DA2029 !important;
+}
+.order_head ul li a{
+	display: block;
+	width: 100%;
+}
+.order_wrap{
+
+}
+.order_wrap .none{
+	padding: 50% 0;
+	text-align: center;
+	font-size: 15px;
+}

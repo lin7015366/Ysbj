@@ -1,0 +1,86 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta http-equiv="pragma" content="no-cache">
+  <meta http-equiv="cache-control" content="no-cache">
+  <meta http-equiv="expires" content="0">
+  <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+  <script type="text/javascript" src="__PUBLIC__/ss/js/jscommon.js"></script>
+  <script type="text/javascript" src="__PUBLIC__/ss/js/Swipe.js"></script>
+  <script type="text/javascript" src="__PUBLIC__/ss/js/jquery-1.8.2.min.js"></script>
+  <link href="__PUBLIC__/ss/css/base.css" rel="stylesheet" type="text/css">
+  <link href="__PUBLIC__/ss/css/footer.css" rel="stylesheet" type="text/css">
+  <link href="__PUBLIC__/ss/css/index.css" rel="stylesheet" type="text/css">
+  <title>运水镖局</title>
+</head>
+<body>
+<div class="address_tab">
+<!-- 首页城市名称 start -->
+  <a class="cityName" href="#">福州<em class="arrow-left"></em></a>
+  <label>运水镖局</label>
+<!-- 首页城市名称 end -->
+</div>
+
+<!--banner button -->
+<div id="warp" style="max-width:640px;margin:0 auto;">
+  <div class="banner">
+  	<!-- 图片轮播开始 -->
+    <section id="slider" class="swipe" style="visibility: visible;">
+      <div class="swipe-wrap" style="width: 2560px;">
+                <div class="wrap goods_img" data-index="0" style="width: 640px; left: 0px; transition-duration: 300ms; -webkit-transition-duration: 300ms; -webkit-transform: translate(-640px, 0px) translateZ(0px);">
+                    <a href="#"><img width="100%" src="__PUBLIC__/ss/images/index_g1.JPG"></a>
+                  </div>
+                <div class="wrap goods_img" data-index="1" style="width: 640px; left: -640px; transition-duration: 300ms; -webkit-transition-duration: 300ms; -webkit-transform: translate(0px, 0px) translateZ(0px);">
+                    <a href="#"><img width="100%" src="__PUBLIC__/ss/images/index_g2.JPG"></a>
+                  </div></div>
+      <div class="bgboxgo">
+        <div class="botton-box" id="sbsd">
+          <span class="off"></span>
+          <span class="on"></span>
+        </div>
+      </div>
+    </section>
+  	<!-- 图片轮播结束 -->
+  </div>
+  <!--导航按钮-->
+  <div class="menu-con">
+     <a href="{:U('/Home/Tongzhuang')}">
+        <img src="__PUBLIC__/ss/images/nav_b1.png">
+        <span class="nav_text">桶装水</span>   
+     </a>
+     <a href="{:U('/Home/Ping')}">
+        <img src="__PUBLIC__/ss/images/nav_b2.png">
+        <span class="nav_text">瓶装水</span>
+     </a>
+  </div>
+  <div class="borderCJY1"></div>
+  <div class="menu-con-list">
+    <a href="#">
+       <img src="__PUBLIC__/ss/images/nav_b3.png"><span class="nav_text2">上门清洗</span>
+    </a>
+    <a href="#">
+       <img src="__PUBLIC__/ss/images/nav_b4.png"><span class="nav_text2">净水器</span>
+    </a>
+    <a href="#">
+       <img src="__PUBLIC__/ss/images/nav_b5.png"><span class="nav_text2">饮水机</span>
+    </a> 
+  </div>
+  <div class="s-space"></div>
+  <div class="menu-other-list">
+    <a href="#"><img alt="充值" src="__PUBLIC__/ss/images/nav_b6.png"><span>快速充值</span></a>
+    <a href="{:U('/Home/Cjwt')}"><img alt="常见问题" src="__PUBLIC__/ss/images/nav_b7.png"><span>常见问题</span></a>
+    <a href="{:U('/Home/Xdxz')}"><img alt="下单须知" src="__PUBLIC__/ss/images/nav_b8.png"><span>下单须知</span></a>
+  </div>
+  <div class="space-split110"></div>
+  <!--导航按钮结束-->
+</div>
+
+<script type="text/javascript">
+$(function() {
+    slider(3000);//参数为自动切换描述
+});
+</script>
+
+<!-- 页脚导航-->
+<include file="Public:footer" />
